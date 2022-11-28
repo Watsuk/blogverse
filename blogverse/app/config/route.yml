@@ -1,0 +1,36 @@
+showOne:
+  path: /post/{id}
+  controller: App\Controller\PostController
+  action: showOne
+  methods:
+    - GET
+    - POST
+
+showAll:
+  path: /blog
+  controller: App\Controller\PostController
+  action: showAll
+  methods:
+    - GET
+    - POST
+
+showUser:
+  path: /profil/{id}
+  controller: App\Controller\UserController
+  action: showUser
+  methods:
+    - GET
+    - POST
+
+showAllUser:
+  path: /users
+  controller: App\Controller\UserController
+  action: showAllUser
+  methods:
+    - GET
+    - POST
+
+index:
+  path: /
+  controller: App\Controller\IndexController
+  action: login
